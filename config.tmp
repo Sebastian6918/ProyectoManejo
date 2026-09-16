@@ -3,7 +3,7 @@
     "tema_interfaz": "oscuro",
     "idioma": "es-ES",
     "tamano_fuente": 12,
-    "color_barra_menu": "#ff8000",
-    "color_letra": "#FFFFFF",
+    "color_barra_menu": "#ff0000",
+    "color_letra": "#000000",
     "foto_perfil": ""
 }

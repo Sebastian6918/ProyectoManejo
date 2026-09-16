@@ -1,9 +1,8 @@
 {
-    "nombre_usuario": "Sebastián",
+    "nombre_usuari "Sebastián",
     "tema_interfaz": "oscuro",
     "idioma": "es-ES",
     "tamano_fuente": 12,
-    "color_barra_menu": "#ff8000",
+    "color_barra_menu": "#333333",
     "color_letra": "#FFFFFF",
     "foto_perfil": ""
-}

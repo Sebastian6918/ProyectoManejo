@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59445970-a019-4e70-b42b-d547b3a618df" name="Changes" comment="funcionando">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" />
+    <list default="true" id="59445970-a019-4e70-b42b-d547b3a618df" name="Changes" comment="Actualizacion de funcion guardar">
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,9 @@
     "accountId": "937ec7f0-c84a-449a-9b1b-d816bcd6577b"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/config.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789531986649</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Actualizacion de funcion guardar">
+      <option name="closed" value="true" />
+      <created>1789532589294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789532589295</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -144,6 +153,7 @@
     <MESSAGE value="Main" />
     <MESSAGE value="json" />
     <MESSAGE value="funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="funcionando" />
+    <MESSAGE value="Actualizacion de funcion guardar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de funcion guardar" />
   </component>
 </project>

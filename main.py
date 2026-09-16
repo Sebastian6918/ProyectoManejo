@@ -28,11 +28,14 @@ def cargar_config():
 def guardar_config(config):
     archivo_temp = "config.tmp"
     archivo_final = "config.json"
-    with open(archivo_temp, "w", encoding="utf-8") as f:
-        json.dump(config, f, indent=4, ensure_ascii=False)
-    if os.path.exists(archivo_final):
-        os.replace(archivo_final, "config.bak")
-    os.replace(archivo_temp, archivo_final)
+    try:
+        with open(archivo_temp, "w", encoding="utf-8") as f:
+            json.dump(config, f, indent=4, ensure_ascii=False)
+        if os.path.exists(archivo_final):
+            os.replace(archivo_final, "config.bak")
+        os.replace(archivo_temp, archivo_final)
+    except PermissionError:
+        messagebox.showerror("Error de Permisos", "No se puede guardar. El archivo no tiene permisos de escritura.")
 
 
 def abrir_settings(root, config):
